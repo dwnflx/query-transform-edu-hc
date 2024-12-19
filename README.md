@@ -20,13 +20,15 @@ pip install -r requirements.txt
 
 ### Environment Variables
 Create a .env file in the root directory with the following keys:
-- OPENAI_KEY=<Your OpenAI API Key>
-- CLAUDE_KEY=<Your Anthropic API Key>
-- GOOGLE_API_KEY=<Your Gemini API Key>
+- OPENAI_KEY="Your OpenAI API Key"
+- CLAUDE_KEY="Your Anthropic API Key"
+- GOOGLE_API_KEY="Your Gemini API Key"
 
 ## Project Structure
 data/
+
 ├── raw/
+
 └── cleaned/
     Contains raw and cleaned data. Note that due to file size constraints, the raw and cleaned dataset of PubMedQA has been removed. However, these are not necessary for analysis, as the final testing datasets are located under notebooks/data.
 
