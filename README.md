@@ -31,7 +31,9 @@ data/
 
 └── cleaned/
 
-    Contains raw and cleaned data. Note that due to file size constraints, the raw and cleaned dataset of PubMedQA has been removed. However, these are not necessary for analysis, as the final testing datasets are located under notebooks/data.
+    Contains raw and cleaned data. 
+	Note that due to file size constraints, the raw and cleaned dataset of PubMedQA has been removed. 
+	However, these are not necessary for analysis, as the final testing datasets are located under notebooks/data.
 
 models/
 
