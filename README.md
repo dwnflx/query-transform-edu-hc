@@ -32,17 +32,16 @@ data/
 └── cleaned/
 
     Contains raw and cleaned data. 
-	Note that due to file size constraints, the raw and cleaned dataset of PubMedQA has been removed. 
-	However, these are not necessary for analysis, as the final testing datasets are located 
-	under notebooks/data.
+	Note that due to file size constraints, the raw and cleaned dataset of PubMedQA was removed. 
+	However, the final testing datasets are located under notebooks/data.
 
 
 
 models/
 
-└── Analysis
+└── embeddings
 
-    Contains the embeddings for each sector's Retrieval-Augmented Generation (RAG) system.
+    Contains the embeddings for each sector's RAG system.
 
 
 
