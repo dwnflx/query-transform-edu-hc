@@ -61,7 +61,7 @@ notebooks/
 
 └── Analysis
 
-    Contains Jupyter Notebooks covering regarding each of the corresponding steps
+    Contains Jupyter Notebooks covering each of the corresponding steps
 
 
 
