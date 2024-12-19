@@ -1,0 +1,17 @@
+question,answers,category,generated_answer,bert_f1
+What were the puritan colonists searching for when they came to Boston?,fresh water,1,The Puritan colonists were searching for fresh water and a better theological community with a government more closely linked to the church.,0.8301684260368347
+Which military historian criticized the French system as being defective?,Dallas Irvine,1,Dallas Irvine,1.0000001192092896
+What is another program that allows officers to become commissioned in the USAF?,Air Force Officer Training School,2,Air Force Reserve Officer Training Corps (AFROTC) program.,0.8944262266159058
+What is the name of the process being considered in Arizona that allows copper to be recovered?,in-situ leach process,2,In-situ leach process.,0.9826834201812744
+How many digital copies of her fifth album did Beyoncé sell in six days?,one million,3,One million digital copies.,0.9090811014175415
+How do linguists view Catalan and Valencian?,as the same language,3,"Linguists view Catalan and Valencian as the same language, recognizing their linguistic unity.",0.8528444766998291
+"In Navajo, the aspiration of affricates can be seen as what?",an extended length of the frication,4,An extended length of the frication.,0.9865856170654297
+"In addition to hearing him play, what else did people seek from Chopin in London?",piano lessons,4,People sought piano lessons from Chopin in London.,0.8638595342636108
+What group did Sciarra belong to?,Spectre,5,The context provided does not mention a group named Sciarra or any relevant information about it.,0.8001165986061096
+What kind of linguistic choices does Catalan have?,unique,5,"Catalan allows the use of words from different dialects, with a tendency to favor words from Northern dialects since the 19th century, though there is greater freedom of choice today.",0.8105947971343994
+What organ secretes chymotrypsin?,the pancreas,6,Pancreas,0.8824864029884338
+In what area of Alaska was Camp Hollywood located?,Northwest,6,Northwest Alaska,0.8810709118843079
+Pope Paul VI had no cap on what?,the number of cardinals generally,7,Pope Paul VI had no cap on the number of foreign embassies accredited to the Vatican.,0.8497316837310791
+Greater magadha stretched from Sravasti in the north-west to what area in the south-east?,Rajagrha,7,Rajagrha,0.9999998807907104
+When were the ten bells cast?,1971,8,The ten bells were cast in 1971.,0.825873076915741
+Who did Yongle Emperor fail to build a solid relationship with?,fifth Karmapa,8,"The fifth Karmapa, Deshin Shekpa.",0.8986170291900635

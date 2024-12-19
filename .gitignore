@@ -1,0 +1,9 @@
+# Ignore all files in the data\raw\pubmedqa directory
+data/raw/pubmedqa/
+data/cleaned/pubmedqa/pubmedqa_cleaned_topics.csv
+
+# Ignore the .env file in the root directory
+.env
+
+# Ignore Jupyter notebook checkpoints anywhere
+**/.ipynb_checkpoints/

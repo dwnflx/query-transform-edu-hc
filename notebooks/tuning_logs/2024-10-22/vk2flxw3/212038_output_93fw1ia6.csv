@@ -1,0 +1,124 @@
+question,answer,category,generated_answer,bert_f1
+What named entities related to the patient's medical history and treatment can be identified using Named Entity Recognition in this discharge summary?,"Using Named Entity Recognition, the only relevant identified named entity is the medical history of the patient which is hypertension. Unfortunately, there are no other named entities related to the patient's treatment that can be identified in this discharge summary as the focus is on the post-mortem examination after the patient's death and not the patient's treatment.",1,"The named entities related to the patient's medical history and treatment that can be identified include:
+
+1. **Patient Information**: Age (85 years), Sex (Male)
+2. **Medical Conditions**: 
+   - Diabetes
+   - Hypertension
+   - High cholesterol
+   - High-grade papillary urothelial carcinoma (Stage pT2b)
+   - Malignant spindle cell proliferation
+   - Neoplastic osteoid formation
+   - Malignant chondroid matrix
+3. **Procedures**: 
+   - Aortic valve replacement surgery
+   - Transurethral resection of a bladder tumor
+   - Partial transurethral resection of the tumor
+   - Cystoscopy
+4. **Treatment**: 
+   - Radiotherapy
+5. **Outcomes**: 
+   - Myocardial infarction (cause of death)
+   - No local recurrence or distant metastases (follow-up finding)
+
+These entities highlight the patient's medical history, diagnoses, treatments, and outcomes.",0.8095060586929321
+What evidence of metastatic breast cancer was found during the physical examination and subsequent biopsy of the patient presented in the discharge summary?,"During the physical examination, there was no palpable mass in the region of the right shoulder, no skin discoloration or changes, and the range of motion and strength were normal. However, an open biopsy was performed on the coracoid identifying biopsy specimens from the lesion at the base of the coracoid, which confirmed the presence of adenocarcinoma. Therefore, evidence of metastatic breast adenocarcinoma was found during the biopsy.",1,"The evidence of metastatic breast cancer found during the physical examination and subsequent biopsy included a solid mass with an irregular contour in the left upper quadrant of the right breast, and the biopsy results confirmed moderately differentiated invasive ductal carcinoma of the right breast with metastasis to the right axillary lymph node.",0.8743330836296082
+What is the relationship between the patient's neutropenia and the diagnosis of gastroenteritis with an unknown origin in the given discharge summary through relation extraction?,"The patient's neutropenia is likely related to the history of multiple myeloma and previous treatments such as chemotherapy and autologous hematopoietic stem cell transplantation. However, the discharge summary does not provide a direct relationship between the neutropenia and the diagnosis of gastroenteritis with an unknown origin. It is possible that the neutropenia may have increased the patient's susceptibility to infection, but further evaluation and management with the primary care physician would be needed to determine if there is a direct relationship between the two conditions.",1,"The discharge summary does not provide a direct relationship between the patient's neutropenia and the diagnosis of gastroenteritis with an unknown origin. Neutropenia, which is a low neutrophil count, can increase the risk of infections, including gastroenteritis. However, the summary does not explicitly link the neutropenia to the cause or severity of the gastroenteritis. Further investigation would be needed to determine if the neutropenia contributed to the patient's susceptibility to gastroenteritis or if it was a result of the underlying condition causing the gastroenteritis.",0.906267523765564
+"Can you provide a summary of the patient's diagnosis, treatment, and outcomes based on the discharge summary?","The patient was diagnosed with biliary atresia and underwent a successful portoenterostomy. During the procedure, alpha-1-antitrypsin (A1AT) disease was also detected and identified as the severe PiZZ mutation. The patient had mild episodes of cholangitis but has since recovered and is currently 8 years old with normal growth, normal liver function tests, and an unremarkable abdominal ultrasound. Regular follow-up by pediatric hepatology and pulmonology is recommended as there are currently no clinical signs of portal hypertension or lung disease.",1,"The patient is a 65-year-old male diagnosed with an intramuscular lipoma located on the right lateral side of the tongue. During hospitalization, he underwent an incisional biopsy that confirmed the diagnosis, followed by complete surgical resection of the lipoma under general anesthesia. The procedure was successful, with the mass identified as a non-encapsulated, spherical, yellowish, solid lipoma upon histopathological examination. The postoperative period was uneventful, and the patient experienced no complications, pain, or sensory disturbances. At discharge, the patient's tongue function and appearance were normal, and he was in stable condition. No further treatment was recommended, and he was advised to have regular follow-up visits with a physician.",0.8445056676864624
+What relations can be extracted through relation extraction regarding the patient's mucinous adenocarcinoma of the uterine cervix and the treatments provided?,"The patient was diagnosed with mucinous adenocarcinoma of the uterine cervix and underwent a total hysterectomy with bilateral salpingo-oophorectomy and left supraclavicular lymph node biopsy. Intra-abdominal dissemination was observed, and positive intraoperative peritoneal cytology was noted. The affected tissue was resected as much as possible, and six courses of chemotherapy were given. However, the remaining tumor still grew and eventually caused bilateral ureter obstruction and bilateral hydronephrosis, requiring a double-J catheter for relief.",1,"The relations that can be extracted regarding the patient's mucinous adenocarcinoma of the uterine cervix and the treatments provided include:
+
+1. **Diagnosis**: The patient was diagnosed with invasive moderately differentiated mucinous adenocarcinoma of the endocervical type, classified as stage IB1 (FIGO).
+
+2. **Treatment Options**: The patient was offered therapeutic options but chose not to terminate the pregnancy for treatment.
+
+3. **Neoadjuvant Chemotherapy**: The patient received neoadjuvant chemotherapy with cisplatin and vincristine between the 26th and 30th week of gestation, resulting in partial regression of the cervical lesion.
+
+4. **Surgical Intervention**: After 34 weeks of gestation, the patient underwent a caesarean section followed by a radical hysterectomy and pelvic lymphadenectomy (Wertheim-Meigs surgery).
+
+5. **Post-Surgical Findings**: The surgical specimen showed cervical villoglandular adenocarcinoma with foci of adenocarcinoma in situ and cervical intraepithelial neoplasia 3 (CIN 3).
+
+6. **Lymph Node Status**: Nine pelvic lymph nodes were dissected and found to be without cancer.
+
+7. **Follow-Up Treatment**: The patient underwent four additional cycles of chemotherapy without complications after the surgery.
+
+8. **Outcome**: The patient remained free of tumor recurrence two years after the initial diagnosis. 
+
+These relations highlight the progression from diagnosis to treatment and outcomes for the patient with mucinous adenocarcinoma of the uterine cervix.",0.8273075819015503
+"How can the diagnosis of hyperprolactinemia due to ESRD and sertraline therapy, as well as the patient's treatment with cabergoline to resolve galactorrhea, be paraphrased in simpler terms for the patient and their family to understand?","The patient had a hormone called prolactin at a high level, which caused milk discharge (galactorrhea) from her breasts. The high prolactin level was due to a combination of kidney disease (ESRD) and taking a medication called sertraline for depression. Cabergoline was used to treat the high prolactin level and resolved the galactorrhea. The patient will continue with dialysis modality and follow up with their primary care physician.",1,"The patient has high levels of prolactin, a hormone that can cause symptoms like unusual milk production (galactorrhea). This increase in prolactin is linked to her kidney disease and the antidepressant medication sertraline she is taking. To help lower the prolactin levels and stop the milk production, the doctor prescribed a medication called cabergoline. This treatment has successfully reduced the prolactin levels and resolved the milk production issue.",0.9157277941703796
+"What was the diagnosis, assessment, and treatment plan for a 66-year-old female smoker presenting with intraabdominal abscesses, as outlined in the discharge summary?","The diagnosis for the 66-year-old female smoker was intraabdominal abscesses, which were treated with IV fluids, ceftriaxone, vancomycin, and metronidazole. Interventional radiology (IR) was consulted and placed intraabdominal drains to drain the fluid. Culture of the pus showed heavy growth of Streptococcus constellatus, and the patient's antibiotic regimen was adjusted accordingly. The patient showed a marked improvement in her clinical state with decreased abdominal tenderness and WBC count. She was discharged with instructions to continue taking prescribed antibiotics, follow up with her primary care physician, and schedule a repeat CT scan in 4-6 weeks.",1,"The discharge summary does not provide information regarding a 66-year-old female smoker presenting with intraabdominal abscesses. Therefore, I cannot provide a diagnosis, assessment, or treatment plan for that specific case based on the provided context.",0.8446630835533142
+"What symptoms did the patient present with on January 27, 2020, and when were they evaluated at the fever clinic of the First Affiliated Hospital of Anhui Medical University?","The patient presented with myalgia, chills, and fever (>37.9°C) on January 27, 2020. They were evaluated at the fever clinic of the First Affiliated Hospital of Anhui Medical University on February 5, 2020.",1,"The patient presented with myalgia, chills, and fever (>37.9°C) on January 27, 2020. She was evaluated at the fever clinic of the First Affiliated Hospital of Anhui Medical University on February 5, 2020.",0.9971522092819214
+"What is the patient's diagnosis, hospital course, and plan of care summarized in the given discharge summary?","The patient's diagnosis is multiple myeloma (MM), which was established in November 2015 with intermediate-risk abnormality. She was admitted to the hospital due to gross hematuria, and during her stay, she received chemotherapy treatment with bortezomib, cyclophosphamide, and dexamethasone. The patient underwent peripheral blood stem cell (PBSC) collection for autologous transplantation and was discharged with the plan of future follow-up and monitoring for the MM. The instruction provided by the healthcare professional to the patient was to continue their prescribed course of care and attend all scheduled future appointments to manage the MM.",1,"Diagnosis: The patient was diagnosed with intracerebral hemorrhage in the left temporal lobe and giant cell hepatitis.
+
+Hospital Course: The patient presented with fever, irritability, diarrhea, seizure, jaundice, and intensive vomiting. Upon admission, she was tachycardic, tachypneic, and poorly perfused. Laboratory studies showed elevated white blood cell count, direct bilirubin levels, and prolonged activated partial thromboplastin time and prothrombin time. Despite treatment with intravenous vitamin K and erythrocyte suspension, the patient passed away 44 hours after admission.
+
+Plan of Care: The plan included administering intravenous vitamin K and erythrocyte suspension. A postmortem liver biopsy was performed, which confirmed giant cell hepatitis. The care team provided support to the family during this difficult time.",0.8224902153015137
+What was the timeframe between the FNAC procedure and the discovery of the subcutaneous nodule in the discharge summary?,"The timeframe between the FNAC procedure and the discovery of the subcutaneous nodule was not specified in the discharge summary. Therefore, it is unanswerable with the given information.",1,The FNAC procedure was performed six days prior to the discovery of the subcutaneous nodule during the patient's admission for a large neck mass.,0.9106841087341309
+"What was the patient's treatment for alternating nasal congestion, and did it provide relief?","The patient received presinus lift medical conservative therapy with both topical nasal steroid and leukotriene receptor antagonist for alternating nasal congestion, which almost disappeared after two months. Follow-up panoramic radiography at 2 months after bilateral sinus lifts showed no clinical symptoms, and no maxillary sinusitis was found. Therefore, the treatment provided relief for the patient's condition.",2,"The patient with alternating nasal congestion was treated with presinus lift medical conservative therapy, which included both topical nasal steroids and a leukotriene receptor antagonist. This treatment resulted in significant relief, with nasal congestion almost disappearing after two months. Subsequently, the patient underwent bilateral maxillary sinus floor elevation with bone graft material using the sinus lift technique, and follow-up evaluations showed no clinical symptoms or maxillary sinusitis.",0.9325689077377319
+"What is the expanded form of the abbreviation ""ESR"" mentioned in this discharge summary?","The expanded form of the abbreviation ""ESR"" mentioned in the discharge summary is ""erythrocyte sedimentation rate"".",2,"The expanded form of the abbreviation ""ESR"" is ""Erythrocyte Sedimentation Rate.""",0.9525335431098938
+What relationship was found between Morton's neuroma and rheumatoid nodule based on the histology examination in this patient's discharge summary? (related to the task of Relation Extraction),"The histology examination revealed the presence of both Morton's neuroma and a rheumatoid nodule in the specimen, suggesting a possible relationship between the two conditions. Further management by the patient's rheumatologists is recommended to assess and monitor her rheumatoid arthritis.",2,"The discharge summaries provided do not contain any information regarding Morton's neuroma or rheumatoid nodules, nor do they mention a histological examination that relates to these conditions. Therefore, no relationship can be established between Morton's neuroma and rheumatoid nodule based on the provided summaries.",0.8881074786186218
+What Named Entities related to the surgical procedures and postoperative complications can be identified through Named Entity Recognition in the given discharge summary?,"The Named Entities related to the surgical procedures in the given discharge summary are ""subdural hemorrhage,"" ""decompression surgery,"" ""cranioplasty,"" ""methylmethacrylate,"" and ""bipedicled pericranial flap."" The Named Entities related to postoperative complications are ""multiple ulcers along the incision line,"" ""exposed skull and bone-plate fixation system,"" ""bacterial culture tests,"" ""S. aureus and S. epidermidis,"" and ""osteomyelitic changes.""",2,"The Named Entities related to surgical procedures and postoperative complications identified in the discharge summaries include:
+
+1. **Surgical Procedures:**
+   - Local resection of the tumor
+   - Palliative chemotherapy
+   - Radiotherapy
+   - Abdominoplasty with incisional hernia repair
+   - Right and transverse colectomy
+   - Right monolateral salpingo-ovariectomy
+   - Tracheostomy
+   - Percutaneous endoscopic gastrostomy (PEG)
+   - Exploratory laparotomy
+   - Retroperitoneal resection of the cystic mass
+   - Damage control surgery
+   - Hepaticojejunostomy
+
+2. **Postoperative Complications:**
+   - Cancer-related pulmonary embolism
+   - Pneumonia
+   - Subcutaneous abscess
+   - Intestinal perforation
+   - Plastic peritonitis
+   - Sepsis
+   - Bile duct injury
+   - Perisplenic abscess
+
+These entities highlight the various surgical interventions and complications that occurred during the patients' hospital courses.",0.8015149831771851
+What coreference resolutions were made in the hospital course section of the discharge summary related to the patient's injuries and surgical procedure?,"The hospital course section of the discharge summary made coreference resolutions by consistently referring to the patient's right elbow and forearm injuries and surgical procedure using the pronoun ""the"" and ""it."" This ensures clear and concise communication of the patient's treatment course.",2,"In the hospital course section of the discharge summary, coreference resolutions made include:
+
+1. The ""patient"" refers to the individual admitted with an occipital subcutaneous hematoma and severe anterior dislocation of C6/7, indicating the same individual throughout the summary.
+2. ""Emergency surgery"" refers to the surgical intervention performed to address the injuries, specifically the cervical traction, manipulative reduction, laminectomy of C5-T1, and posterior fusion of C6/7.
+3. ""Spinal cord edema"" is consistently referenced as the condition being treated, linking it to the initial diagnosis and the surgical procedures aimed at alleviating it.
+4. ""Postoperative computed tomography and magnetic resonance imaging"" refers back to the patient's condition post-surgery, confirming improvements in cervical alignment and reduction of spinal cord edema.
+5. ""Motor function and sensory impairment of the lower limbs"" refers to the specific neurological deficits experienced by the patient due to the injuries, indicating their recovery progress over the course of hospitalization. 
+
+These resolutions help clarify that all references pertain to the same patient and their specific injuries and treatment throughout the summary.",0.8621978163719177
+"What were the coreferents for the noun phrase ""right eye"" used throughout the discharge summary?","The coreferents for the noun phrase ""right eye"" used throughout the discharge summary refers to the patient's right eye with retinal capillary hemangioblastoma, which underwent laser photocoagulation and intravitreal triamcinolone acetonide administration.",2,"The coreferents for the noun phrase ""right eye"" used throughout the discharge summary include ""RE"" (right eye), which is an abbreviation commonly used in medical documentation. Additionally, the right eye is referenced in relation to various conditions and treatments, such as juxtafoveal classic choroidal neovascularization, capsulotomy, and other ophthalmological evaluations.",0.8672500848770142
+"What are the coreferents for the noun phrase ""the elbow"" throughout the clinical summary?","The coreferent for the noun phrase ""the elbow"" throughout the clinical summary refers to the right elbow of the 9-month-old Korean girl who was diagnosed with osteomyelitis caused by the Tokyo-172 BCG vaccination.",2,"The coreferents for the noun phrase ""the elbow"" throughout the clinical summary refer to the patient's right elbow and, in some instances, the left elbow when discussing bilateral conditions or comparisons.",0.903145968914032
+"What was the extent of the injury and surgical repair for the patient's proximal humerus fracture, according to the discharge summary?","According to the discharge summary, the patient had sustained an open Gustilo-Anderson IIIA fracture of the proximal humerus with a significant skin loss. The surgical repair involved a thorough debridement, primary repair of the torn rotator cuff, and the application of a split-thickness skin graft for terminal closure. Soft tissue and bony healing occurred without further surgical intervention, and radiological confirmation showed no evidence of avascular necrosis within 12 months. However, the patient unfortunately did not recover shoulder abduction and forward elevation due to a complete neurapraxia of the axillary nerve.",2,"The patient sustained a comminuted two-part surgical neck fracture of the humerus with proximal, lateral, and posterior displacement of the humeral shaft, as well as an undisplaced fracture of the greater tuberosity. The surgical repair involved open reduction and internal fixation using a plate and screws. During the procedure, a complete rupture of the pectoralis major tendon was also observed and repaired. Postoperatively, the patient was placed in an adduction sling and underwent a structured rehabilitation program.",0.865447998046875
+What medical terminologies related to the patient's cervical spine surgery can be identified through Named Entity Recognition in this discharge summary?,"Some of the medical terminologies related to the patient's cervical spine surgery that can be identified through Named Entity Recognition in this discharge summary include bilateral pars/pedicle fractures of C2, C2/3 anterior cervical fusion, discectomy, polyetheretherketone (PEEK) cage, demineralized bone matrix, and C2/3 arthrodesis.",2,"The medical terminologies related to the patient's cervical spine surgery identified through Named Entity Recognition in the discharge summary include:
+
+1. Occipital subcutaneous hematoma
+2. Anterior dislocation of C6/7
+3. Spinal cord edema
+4. Cervical traction
+5. Manipulative reduction
+6. Laminectomy (C5-T1)
+7. Posterior fusion (C6/7)
+8. Motor function
+9. Sensory impairment
+10. Rehabilitation",0.8525407910346985
+What was the orthopedic specialist's treatment plan for the patient's radial head fracture based on the radiographic examination results and physical assessment?,"The orthopedic specialist elected not to cast the patient's fracture due to a small degree of displacement, lack of significant swelling, and normal range of motion. The patient was restricted from engaging in weight-bearing exercise and instructed to return in one month for a follow-up X-ray to assess the healing of the fracture site.",2,"The orthopedic specialist's treatment plan for the patient's radial head fracture involved the following steps:
+
+1. **Initial Closed Reduction Attempts**: The patient underwent two attempts at closed reduction, which were unsuccessful.
+   
+2. **Surgical Intervention**: Due to the failure of closed reduction, the patient was taken to the operating room for surgical intervention. The procedure included:
+   - Open reduction and internal fixation of the comminuted radial head fracture.
+   - Resection of the comminuted radial head fracture.
+   - Fixation of the olecranon fracture with a lag screw and tension band wire.
+   - Reattachment of the medial collateral ligaments to the distal humerus using a Fastin suture anchor.
+
+3. **Postoperative Care**: The patient was placed in a splint for two weeks and underwent gentle physiotherapy to promote recovery.
+
+4. **Follow-Up**: The patient was monitored for functional recovery, which was achieved after three months with no signs of elbow instability. 
+
+This comprehensive approach aimed to restore stability and function to the elbow joint following the injury.",0.8414750099182129
