@@ -30,12 +30,12 @@ data/
 ├── raw/
 
 └── cleaned/
-    
-Contains raw and cleaned data. Note that due to file size constraints, the raw and cleaned dataset of PubMedQA has been removed. However, these are not necessary for analysis, as the final testing datasets are located under notebooks/data.
+
+    Contains raw and cleaned data. Note that due to file size constraints, the raw and cleaned dataset of PubMedQA has been removed. However, these are not necessary for analysis, as the final testing datasets are located under notebooks/data.
 
 models/
-    
-Contains the embeddings for each sector's Retrieval-Augmented Generation (RAG) system.
+
+    Contains the embeddings for each sector's Retrieval-Augmented Generation (RAG) system.
 
 notebooks/
 
@@ -53,19 +53,8 @@ notebooks/
 
 └── Analysis
 
-    Contains Jupyter Notebooks covering:
-	
-        Preprocessing
-		
-        Exploratory Analysis
-		
-        RAG Setup
-		
-        Answer Generation
-		
-        Analysis
-		
+    Contains Jupyter Notebooks covering regarding each of the corresponding steps
 
-.R-files/
+.R-files
 
-Contains the statistical analysis scripts for each sector
+    Contain the statistical analysis scripts for each sector
